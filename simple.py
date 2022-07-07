@@ -135,8 +135,9 @@ async def lyrics(spotify_track_uri):
 
     if lyrics:
         lyrics_clean = clean_lyrics(lyrics)
-        summary = generate_summary(lyrics_clean)
+        #summary = generate_summary(lyrics_clean)
 
-        return {'summary':summary, 'clean_lyrics': lyrics_clean}
+        #return {'summary':summary, 'clean_lyrics': lyrics_clean}
+        return {'clean_lyrics': lyrics_clean}
     else:
         return 0
