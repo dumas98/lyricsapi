@@ -4,7 +4,5 @@ nltk==3.6.7
 numpy
 requests==2.27.1
 spotipy==2.19.0
-string
-re
 fastapi
 gunicorn
